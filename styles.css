@@ -223,7 +223,7 @@
             justify-content: center;
             text-align: center;
             background: linear-gradient(135deg, rgba(92, 26, 26, 0.75) 0%, rgba(58, 42, 26, 0.7) 100%),
-            url('Images/worship.jpeg');
+            url('images/worship.jpeg');
 
             background-size: cover;
             background-attachment: fixed;
@@ -1142,4 +1142,5 @@
     .cert-frame:hover {
         transform: scale(1.03); /* Mouse එක ගෙනිච්චම පොඩ්ඩක් ලොකු වෙන්න */
         box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+
     }
