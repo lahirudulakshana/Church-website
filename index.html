@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvary Prayer Church - Welcome Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Pattern -->
+    <div class="bg-pattern"></div>
+
+    <!-- Floating Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- ===================================
+         NAVIGATION BAR
+    =================================== -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Calvary Harvest</div>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                 <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#ministries">Ministries</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#prayer">21-Day Prayer</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================================
+         HERO SECTION
+    =================================== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Calvary Prayer Church</h1>
+            <p class="subtitle">A House of Prayer for All Nations</p>
+            <p class="mission">Where faith is strengthened, lives are transformed, and communities are blessed through the power of prayer and the Word of God.</p>
+            <a href="#services" class="cta-button">Join Our Service</a>
+        </div>
+    </section>
+
+    <!-- ===================================
+         ABOUT SECTION
+    =================================== -->
+    <section id="about" class="about fade-in-section">
+        <div class="container">
+            <h2 class="section-title">About Our Church</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Calvary Harvest Prayer Church was founded with a simple yet powerful vision: to create a community where prayer is not just practiced, but lived. For over two decades, we have been a beacon of hope, faith, and spiritual growth in our community.</p>
+                    <p>We believe in the transformative power of prayer and the life-changing message of Jesus Christ. Our doors are open to all who seek truth, healing, and a deeper relationship with God.</p>
+                    <p>Through worship, fellowship, and service, we strive to be the hands and feet of Christ in our community and beyond.</p>
+                </div>
+                <div class="about-values">
+                    <div class="value-item">
+                        <h4>Our Mission</h4>
+                        <p>To equip believers to grow in their faith, live purposefully, and impact the world through prayer, worship, and compassionate service.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Our Vision</h4>
+                        <p>To be a thriving spiritual family where every person experiences God's love, discovers their purpose, and uses their gifts to glorify Him.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Our Values</h4>
+                        <p>Faith, Prayer, Community, Service, Integrity, and Love. These core values guide everything we do as we seek to honor God in all aspects of life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ===================================
+         LEADERSHIP / PASTOR SECTION
+    =================================== -->
+        <section id="leadership" class="fade-in-section container">
+            <h2 class="section-title">Our Leadership</h2>
+            
+            <div class="leadership-container">
+                <div class="family-card">
+                    <div class="family-img">
+                        <img src="images/pastor_and_sister.jpeg" alt="Senior Pastors">
+                    </div>
+                    <div class="family-info">
+                        <h3>Apostle. L.A.Newton Wijesinghe & Pastor. Girty Amarasinghe</h3>
+                        <p>Senior Pastors</p>
+                    </div>
+                </div>
+
+                <div class="family-card">
+                    <div class="family-img">
+                        <img src="images/daughter_husband.jpeg" alt="Associate Pastors">
+                    </div>
+                    <div class="family-info">
+                        <h3>Pastor. Rebecca & Pastor. Sanjaya Kumarasinghe</h3>
+                        <p>Associate Pastors</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="credentials-section">
+                <h3 class="sub-heading">Academic & Ministry Credentials</h3>
+                <div class="cert-grid">
+                    <div class="cert-item" onclick="openModal(this)">
+                        <div class="cert-frame">
+                            <img src="images/Cert1.jpeg" alt="Diploma">
+                        </div>
+                        
+                    </div>
+                    <div class="cert-item" onclick="openModal(this)">
+                        <div class="cert-frame">
+                            <img src="images/Cert2.jpeg" alt="certificate">
+                        </div>
+                       
+                    </div>
+                    <div class="cert-item" onclick="openModal(this)">
+                        <div class="cert-frame">
+                            <img src="images/Cert3.jpeg" alt="Diploma">
+                        </div>
+                       
+                    </div>
+                    <div class="cert-item" onclick="openModal(this)">
+                        <div class="cert-frame">
+                            <img src="images/Cert4.jpeg" alt="certificate">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="imageModal" class="modal" onclick="this.style.display='none'">
+            <span class="close-modal">&times;</span>
+            <img id="modalImg" class="modal-content">
+        </div>
+A
+
+    <!-- ===================================
+         MINISTRIES SECTION
+    =================================== -->
+    <section id="ministries" class="ministries fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Our Ministries</h2>
+            <div class="ministry-grid">
+                <div class="ministry-item">
+                    <h4>Prayer Ministry</h4>
+                    <p>Dedicated intercessors praying for our community, nation, and the world. Join us in powerful corporate prayer gatherings.</p>
+                </div>
+                 <div class="ministry-item">
+                    <h4>Worship Team</h4>
+                    <p>Leading hearts into God's presence through anointed music and heartfelt praise.</p>
+                </div>
+                <div class="ministry-item">
+                    <h4>Youth Ministry</h4>
+                    <p>Empowering the next generation with faith, purpose, and leadership skills through Bible study, mentorship, and outreach.</p>
+                </div>
+                <div class="ministry-item">
+                    <h4>Outreach Ministry</h4>
+                    <p>Serving our community with the love of Christ through food drives, missions, and compassionate care for those in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ===================================
+         SERVICE TIMES SECTION
+    =================================== -->
+    <section id="services" class="services fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Service Times</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64" fill="none">
+                            <!-- Horizon line -->
+                            <line x1="8" y1="40" x2="56" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            
+                            <!-- Sun half circle -->
+                            <path d="M 20 40 A 12 12 0 0 1 44 40" fill="#FFA500" stroke="currentColor" stroke-width="2"/>
+                            
+                            <!-- Sun rays -->
+                            <line x1="32" y1="16" x2="32" y2="22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="20" y1="20" x2="24" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="44" y1="20" x2="40" y2="24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="14" y1="28" x2="19" y2="30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="50" y1="28" x2="45" y2="30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="12" y1="36" x2="17" y2="37" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <line x1="52" y1="36" x2="47" y2="37" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Sunday Morning Service</h3>
+                    <p class="time">9:30 AM</p>
+                    <p>Start your week in worship and fellowship with powerful preaching and uplifting praise.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Bible/Book icon for Pastors Meeting -->
+                            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                            <path d="M8 2v18"/>
+                        </svg>
+                    </div>
+                    <h3>Tuesday Pastors Meeting</h3>
+                    <p class="time">9:00 AM</p> <!-- Change time as needed -->
+                    <p>Leadership gathering for pastors to discuss ministry, pray together, and plan church activities.</p> <!-- Customize this description -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+
+        <!-- ===================================
+        21-DAY PRAYER PROGRAM
+        =================================== -->
+    <section id="prayer" class="prayer-section fade-in-section">
+        <div class="container">
+            <h2 class="section-title">21-Day Prayer Program</h2>
+            
+            <div class="prayer-wrapper">
+                <div class="prayer-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                
+                <div class="prayer-info">
+                    <h3>Join Our WhatsApp Prayer Group</h3>
+                    <p>
+                        Connect with us for a powerful 21-day prayer journey. Receive daily prayers, 
+                        Bible verses, and spiritual guidance directly on WhatsApp.
+                    </p>
+                    
+                    <div class="prayer-features">
+                        <div class="feature">
+                            <span class="icon">📖</span>
+                            <span>Daily Scripture</span>
+                        </div>
+                        <div class="feature">
+                            <span class="icon">🙏</span>
+                            <span>Prayer Points</span>
+                        </div>
+                        <div class="feature">
+                            <span class="icon">💬</span>
+                            <span>Group Support</span>
+                        </div>
+                        <div class="feature">
+                            <span class="icon">⏰</span>
+                            <span>21 Days Program</span>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <a href="https://wa.me/1234567890?text=I%20want%20to%20join%20the%207-day%20prayer%20program" 
+                    target="_blank" 
+                    class="join-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                        Join Prayer Group
+                    </a>
+                    
+                    <p class="small-text">Start this Monday • Free to join</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================
+         CONTACT SECTION
+    =================================== -->
+    <section id="contact" class="contact fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <p>No 393/ Naiwala road,<br>Udugampola</p>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact</h3>
+                        <p>Phone: <a href="tel:+94771502058">0771502058</a></p>
+                       <p>
+                            Email:
+                            <a href="mailto:calvaryharvest@gmail.com">
+                                calvaryharvestprayerchurch@gmail.com
+                            </a>
+                            </p>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Connect</h3>
+                        <p>Follow us on social media for updates, prayer requests, and inspirational content throughout the week.</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/1GQX4AKatu/" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                                <span>Facebook</span>
+                            </a>
+
+                            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9814339387754!2d79.98864757477226!3d7.1281436928757715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fbad75d2a90d%3A0x9c0b407b8acad0b2!2sCalvary%20Harvest%20Church%20-%20Udugampola!5e0!3m2!1sen!2slk!4v1770010599344!5m2!1sen!2slk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-placeholder">
+                        <p><strong>Google Map Coming Soon</strong></p>
+                        <p>No 393/ Naiwala road,Udugampola</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================
+         FOOTER
+    =================================== -->
+    <footer>
+        <p>&copy; Calvary Harvest Prayer Church.</p>
+        <p>Built with faith, love, and prayer ✟</p>
+    </footer>
+
+
+      <!-- ===================================
+         JAVASCRIPT
+    =================================== -->
+    <script src="script.js"></script>
+</body>
+</html>
