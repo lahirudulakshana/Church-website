@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Calvary Harvest Church</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+                        <script>
+                function openModal(element) {
+                    var modal = document.getElementById("imageModal");
+                    var modalImg = document.getElementById("modalImg");
+                    modal.style.display = "block";
+                    modalImg.src = element.src;
+                }
+                </script>
+<body>
+    <section class="gallery-main">
+        <div class="container">
+            <h1 class="main-title">Our Church Gallery</h1>
+
+            <div class="gallery-category">
+                <h2 class="category-title">Sunday Worship & Services</h2>
+                <div class="photo-grid">
+                    <img src="images/service3.jpeg" alt="Sunday Service" loading="lazy" onclick="openModal(this)">
+                    <img src="images/service2.jpeg" alt="Sunday Service" loading="lazy" onclick="openModal(this)">
+                    <img src="images/service1.jpeg" alt="Sunday Service" loading="lazy" onclick="openModal(this)">
+                    </div>
+            </div>
+
+            <div class="gallery-category">
+                <h2 class="category-title">Pastors' Fellowship</h2>
+                <div class="photo-grid">
+                    <img src="images/pastor-meet1.jpeg" alt="Pastors Fellowship" loading="lazy" onclick="openModal(this)">
+                    <img src="images/Pastor-meet.jpeg" alt="Pastors Training" loading="lazy" onclick="openModal(this)">
+                    <img src="images/pastor meet3.jpeg" alt="Empowering Pastors" loading="lazy" onclick="openModal(this)">
+                    </div>
+            </div>
+        </div>
+    </section>
+            <div id="imageModal" class="modal" onclick="this.style.display='none'">
+                <span class="close-modal">&times;</span>
+                <img id="modalImg" class="modal-content">
+            </div>
+    </body>
+</html>
