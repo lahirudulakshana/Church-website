@@ -223,7 +223,7 @@
             justify-content: center;
             text-align: center;
             background: linear-gradient(135deg, rgba(92, 26, 26, 0.75) 0%, rgba(58, 42, 26, 0.7) 100%),
-            url('Images/worship.jpeg');
+            url('images/worship.jpeg');
 
             background-size: cover;
             background-attachment: fixed;
@@ -1551,3 +1551,4 @@
 .close-modal:hover {
     color: #d4af37; /* Gold color on hover */
 }
+
