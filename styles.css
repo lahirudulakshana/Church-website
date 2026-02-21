@@ -1552,28 +1552,3 @@
     color: #d4af37; /* Gold color on hover */
 }
 
-.facebook-integration {
-    padding: 60px 0;
-    background-color: #fdfaf5; /* සයිට් එකේ තීම් එකට ගැලපෙන ලා පාටක් */
-}
-
-.fb-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* පොඩි ෂැඩෝ එකක් */
-    max-width: 500px;
-    margin: 0 auto;
-    background: #fff;
-}
-
-/* Mobile වලදී width එක auto සැකසෙන්න */
-@media (max-width: 600px) {
-    .fb-wrapper {
-        margin: 0 15px;
-    }
-}
-
-
