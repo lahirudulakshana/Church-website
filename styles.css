@@ -1625,5 +1625,50 @@
         height: 300px;
     }
 }
+/* Pastoral Families Section Styles */
+.pastoral-families-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.landscape-photo-container {
+    width: 100%;
+    max-width: 1100px; /* සයිට් එකේ හැටියට මේක වෙනස් කරගන්න පුළුවන් */
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.landscape-photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.landscape-photo-container img:hover {
+    transform: scale(1.02); /* මවුස් එක ගෙනිච්චම පොඩ්ඩක් Zoom වෙන්න */
+}
+
+.pastoral-quote {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .pastoral-families-section {
+        padding: 30px 15px;
+    }
+    .pastoral-quote {
+        font-size: 1rem;
+    }
+}
+
 
 
